@@ -13,7 +13,6 @@ body {
 
 main {
     color: #272324;
-    text-align: center;
     font-family: AvenirNextLTPro-Regular;
     margin: 2em;
     font-weight: 800;
@@ -202,6 +201,11 @@ nav {
     margin-top: 1em;
 }
 
+.link {
+    text-decoration: none;
+    color: #E86F68;
+}
+
 @media all and (min-width: 600px) {
     #movies {
         grid-template-columns: repeat(auto-fill, 300px);
@@ -326,5 +330,10 @@ nav {
 
     main {
         background-color: transparent;
+    }
+
+    .link {
+        text-decoration: none;
+        color: #E86F68;
     }
 }
